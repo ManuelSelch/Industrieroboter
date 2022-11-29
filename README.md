@@ -8,5 +8,5 @@ Projekt zur Kommunikation eines Microcontrollers (C++) mit einem Industrierobote
 a) Bspw. Sensordaten Übermittlung an Industrieroboter
 b) Befehle des Industrieroboters an den Arduino
 <br>
-#Master-Slave Prinzip:
+# Master-Slave Prinzip:
 Die komplette Logik soll auf dem Industrieroboter erfolgen (V+) und der Arduino sendet nur angeforderte Sensordaten oder führt Befehle aus
