@@ -15,7 +15,7 @@ Dies hätte den Vorteil, dass zukünftige Änderungen an der Logik nur auf dem M
 
 # Website:
 
-Auf der Website lassen sich verschiedenen Formulare, Buttons und Text-Felder platzieren, um Befehle zu verschicken. Der Webserver ist über das Internet erreichbar: [Website](https://manuelmarco.xyz/industrieroboter_2022/)
+Auf der Website lassen sich verschiedenen Formulare, Buttons und Text-Felder platzieren, um Befehle zu verschicken. Der Webserver ist über das Internet erreichbar: [Website](https://manuelmarco.xyz/industrieroboter_2022/)<br>
 Somit lässt sich der Industrieroboter von jedem Gerät aus steuern.
 
 # SQL Datenbank:
