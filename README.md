@@ -10,6 +10,12 @@ b) Befehle des Industrieroboters an den Arduino
 
 # Master-Slave Prinzip:
 
-Die komplette Logik soll auf dem Industrieroboter erfolgen (V+) und der Arduino sendet nur angeforderte Sensordaten oder führt Befehle aus
+Idee: Die komplette Logik soll auf dem Arduino / NodeMCU erfolgen (C++) und der Industrieroboter führt Befehle aus.
+Dies hätte den Vorteil, dass zukünftige Änderungen an der Logik nur auf dem Microcontroller vorgenommen werden müssten.
+
+
+# SQL Datenbank:
+
+Alle Befehle des Webservers werden in einer SQL Datenbank gespeichert. Der Microcontroller fragt den nächsten Befehl ab und setzt diesen dann auf erledigt. Somit könnten auch mehrere Befehle erstellt werden und anschließend in der richtigen Reihenfolge ausgeführt werden. 
 
 ![Datenbank Tabellenschema](Documentation/tabellenschema.png)
