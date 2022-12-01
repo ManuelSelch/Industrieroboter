@@ -12,4 +12,4 @@ b) Befehle des Industrieroboters an den Arduino
 
 Die komplette Logik soll auf dem Industrieroboter erfolgen (V+) und der Arduino sendet nur angeforderte Sensordaten oder führt Befehle aus
 
-[Datenbank Tabellenschema](Documentation/tabellenschema.png)
+![Datenbank Tabellenschema](Documentation/tabellenschema.png)
