@@ -13,6 +13,10 @@ b) Befehle des Industrieroboters an den Arduino
 Idee: Die komplette Logik soll auf dem Arduino / NodeMCU erfolgen (C++) und der Industrieroboter führt Befehle aus.
 Dies hätte den Vorteil, dass zukünftige Änderungen an der Logik nur auf dem Microcontroller vorgenommen werden müssten.
 
+# Website:
+
+Auf der Website lassen sich verschiedenen Formulare, Buttons und Text-Felder platzieren, um Befehle zu verschicken. Der Webserver ist über das Internet erreichbar: [Website](https://manuelmarco.xyz/industrieroboter_2022/)
+Somit lässt sich der Industrieroboter von jedem Gerät aus steuern.
 
 # SQL Datenbank:
 
