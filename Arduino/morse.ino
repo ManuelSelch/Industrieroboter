@@ -1,3 +1,17 @@
+unsigned long lastTimeMorse = 0;
+unsigned long timerDelayMorse = 1000; // timer 
+
+void handleGetMorse(){
+  if ((millis() - lastTimeMorse) > timerDelayMorse) {
+    if(receivingData){
+      receiveData();
+    }else{
+      checkForStartSignal();
+    }
+    lastTimeMorse = millis();
+  }
+}
+
 void checkForStartSignal(){
   int val = digitalRead(inputPin);
   if(val == 0){

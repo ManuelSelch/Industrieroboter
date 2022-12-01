@@ -28,10 +28,11 @@ void setup() {
 }
 
 void loop() {
-  delay(1000);
-  if(receivingData){
-    receiveData();
-  }else{
-    checkForStartSignal();
-  }
+  MDNS.update();
+  ArduinoOTA.handle();
+  
+  webserverGetCode();
+
+  handleGetMorse();
+  
 }
