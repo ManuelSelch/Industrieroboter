@@ -11,3 +11,5 @@ b) Befehle des Industrieroboters an den Arduino
 # Master-Slave Prinzip:
 
 Die komplette Logik soll auf dem Industrieroboter erfolgen (V+) und der Arduino sendet nur angeforderte Sensordaten oder führt Befehle aus
+
+[Datenbank Tabellenschema](documentation/tabellenschema.png)
