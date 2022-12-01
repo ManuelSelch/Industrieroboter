@@ -14,7 +14,7 @@ Idee: Die komplette Logik soll auf dem Arduino / NodeMCU erfolgen (C++) und der 
 Dies hätte den Vorteil, dass zukünftige Änderungen an der Logik nur auf dem Microcontroller vorgenommen werden müssten.
 <br><br>
 Die Befehle werde in Form des Binärcodes (1 und 0) über ein Relay gesendet:
-!(Arduino Relay)(Documentation/arduino.jpeg)
+![Arduino Relay](Documentation/arduino.jpeg)
 
 # Website:
 
